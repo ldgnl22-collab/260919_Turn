@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 5486005019775458488}
   - component: {fileID: 4226854130915739761}
   - component: {fileID: 8576395081922395977}
-  m_Layer: 0
+  - component: {fileID: -5814586968850018734}
+  - component: {fileID: 8016256068508105694}
+  m_Layer: 6
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,5 +118,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d718ae394053cd4fa6a4e7d66a688bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Health>k__BackingField: 50
+  <Speed>k__BackingField: 1
+--- !u!114 &-5814586968850018734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478447477566170150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518df06c0a3ebb34db29a12b7cc8369d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Phases:
+  - _name: "\uC2AC\uB77C\uC784 \uD398\uC774\uC988 1"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
+  - _name: "\uC2AC\uB77C\uC784 \uD398\uC774\uC988 2"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
+  - _name: "\uC2AC\uB77C\uC784 \uD398\uC774\uC988 3"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
+--- !u!114 &8016256068508105694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478447477566170150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa17149062a3df54fb7a7ef24cb50d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

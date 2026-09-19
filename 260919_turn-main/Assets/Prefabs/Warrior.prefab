@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3356845427241098494}
   - component: {fileID: 2233196979515771757}
   - component: {fileID: 2620657504481469444}
+  - component: {fileID: 4953141120263199968}
+  - component: {fileID: 7426419206345716305}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Untagged
@@ -118,3 +120,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d718ae394053cd4fa6a4e7d66a688bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Health>k__BackingField: 100
+  <Speed>k__BackingField: 4
+--- !u!114 &4953141120263199968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690867858947924090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad465d7d24275f47addf6936ab1afb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7426419206345716305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690867858947924090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518df06c0a3ebb34db29a12b7cc8369d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Phases:
+  - _name: "\uC6CC\uB9AC\uC5B4 \uD398\uC774\uC988 1"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
+  - _name: "\uC6CC\uB9AC\uC5B4 \uD398\uC774\uC988 2"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
+  - _name: "\uC6CC\uB9AC\uC5B4 \uD398\uC774\uC988 3"
+    OnPhaseRunning:
+      m_PersistentCalls:
+        m_Calls: []
+    FinishDelay: 2
+    IsFinished: 0
