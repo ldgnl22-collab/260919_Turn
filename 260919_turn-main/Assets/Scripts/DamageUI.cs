@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Unity.VisualScripting;
+using System;
 
 public class DamageUI : MonoBehaviour, IPoolable
 {
@@ -15,7 +16,7 @@ public class DamageUI : MonoBehaviour, IPoolable
     private Camera _camera;
     private TextMeshProUGUI _tmp;
     
-    public Transform Tr { get; private set; }
+    public Transform Tr { get => transform; }
     
     // 일정시간 이후 풀로 반납(비활성화)
     

@@ -9,7 +9,11 @@ public class UIPool : MonoBehaviour
     
     private IPoolable[] _pool;
 
-    private void Awake() => Init();
+    private void Awake()
+    {
+        SetSingleton();
+        Init();
+    }
     
     private void OnDestroy() => _pool = null;
     
